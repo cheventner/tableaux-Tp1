@@ -12,19 +12,13 @@ function afficherListe(){
 
 afficherListe();
 
-var ajoutPrenom = document.createElement('texte');
+
 
 function ajouterListe (){
-	tab.push('texte').value;
-	
-}
+	var ajoutPrenom = document.getElementById('texte').value;
+	tab.push(ajoutPrenom) ;
+	afficherListe();
 
-
-function onclick() {
-	 tab.push;
-	
-	 
 	}
-ajouterListe();
-console.log("ajouterListe");
-console.log("ajoutPrenom");
+	
+
